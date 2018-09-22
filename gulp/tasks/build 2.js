@@ -17,7 +17,7 @@ gulp.task('previewDist', function() {
 })
 
 gulp.task('deleteDistFolder', ['icons'], function(){
-    return del("./docs");
+    return del("./dist");
 });
 
 gulp.task('copyGeneralFiles', ['deleteDistFolder'],function() {
@@ -55,7 +55,7 @@ gulp.task('usemin', ["styles", "scripts"], function() {
         css: [function() {return rev()}, function() {return cssnano()}],
         js: [function() {return rev()}, function() {return uglify()}]
     }))
-    .pipe(gulp.dest("./docs"));
+    .pipe(gulp.dest("./dist"));
 })
 
 gulp.task('build', ["deleteDistFolder", "copyGeneralFiles", "optimizeImages", "useminTrigger"]);

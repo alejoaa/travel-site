@@ -8,7 +8,7 @@ The website is responsive. Feel free to customize it as you like!
 
 Some important commands to get started are:
 - `gulp watch`: Tracks changes in js, css, and ejs files and refreshes the browser as needed (using Browser Sync)
-- `gulp dist`: Builds dist folder
+- `gulp build`: Builds dist folder
 
 Enjoy coding!
 
