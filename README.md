@@ -2,7 +2,7 @@
 
 This is a demo landing page for a travel agency. It has some animations as well as responsive and lazy loading images. Here’s a design image:
 
-![alt text](design.png)
+![alt text](readme/design.png)
 
 The website is responsive. Feel free to customize it as you like!
 
